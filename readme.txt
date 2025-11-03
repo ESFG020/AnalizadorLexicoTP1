@@ -1,6 +1,5 @@
 Integrantes:
 	-Eduardo Franco
-	-Aldo Medina
 
 1- Tener python3 instalado
 2- Hacer clone de la carpeta
