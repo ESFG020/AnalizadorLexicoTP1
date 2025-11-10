@@ -6,7 +6,7 @@
          "casado":false,
          "hijos":[  
 
-         
+         ]
       },
       {  
          "ci":7654321,
@@ -15,7 +15,7 @@
          "hijos":[  
             {  
                "nombre":"Jorge",
-               "edad":18a
+               "edad":18
             },
             {  
                "nombre":"Valeria",

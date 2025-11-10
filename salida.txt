@@ -6,7 +6,7 @@ L_LLAVE
          STRING DOS_PUNTOS PR_FALSE COMA
          STRING DOS_PUNTOS L_CORCHETE
 
-         
+         R_CORCHETE
       R_LLAVE COMA
       L_LLAVE
          STRING DOS_PUNTOS NUMBER COMA
@@ -15,7 +15,7 @@ L_LLAVE
          STRING DOS_PUNTOS L_CORCHETE
             L_LLAVE
                STRING DOS_PUNTOS STRING COMA
-               error
+               STRING DOS_PUNTOS NUMBER
             R_LLAVE COMA
             L_LLAVE
                STRING DOS_PUNTOS STRING COMA
