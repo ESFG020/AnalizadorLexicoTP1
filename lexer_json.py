@@ -9,8 +9,8 @@ TOKENS = [
     ("R_LLAVE", re.compile(r"\}")),
     ("COMA", re.compile(r",")),
     ("DOS_PUNTOS", re.compile(r":")),
-    ("STRING", re.compile(r"\"(?:[^\"\\]|\\.)*\"")),#Expresion regular para cadenas JSON que empiecen y terminen con comillas dobles
-    ("NUMBER", re.compile(r"[0-9]+(?:\.[0-9]+)?(?:(?:e|E)(?:\+|-)?[0-9]+)?")),#Expresion regular para números enteros y decimales con notación científica opcional
+    ("LITERAL_CADENA", re.compile(r"\"(?:[^\"\\]|\\.)*\"")),#Expresion regular para cadenas JSON que empiecen y terminen con comillas dobles
+    ("LITERAL_NUM", re.compile(r"[0-9]+(?:\.[0-9]+)?(?:(?:e|E)(?:\+|-)?[0-9]+)?")),#Expresion regular para números enteros y decimales con notación científica opcional
     ("PR_TRUE", re.compile(r"(?:true|TRUE)")),
     ("PR_FALSE", re.compile(r"(?:false|FALSE)")),
     ("PR_NULL", re.compile(r"(?:null|NULL)")),
